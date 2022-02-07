@@ -32,3 +32,7 @@
 .cell:first-child {
   border: none;
 }
+
+.cell img {
+  max-width: 100%;
+}
