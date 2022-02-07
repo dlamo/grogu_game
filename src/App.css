@@ -8,3 +8,8 @@
   place-items: center;
   height: 100vh;
 }
+
+.board {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
