@@ -13,3 +13,22 @@
   display: grid;
   grid-template-columns: 4fr 1fr;
 }
+
+.cells {
+  display: flex;
+  margin-right: 5px;
+}
+
+.cell {
+  border: 1px solid green;
+  display: grid;
+  height: 80px;
+  margin: 0 5px;
+  place-content: center;
+  text-align: center;
+  width: 80px;
+}
+
+.cell:first-child {
+  border: none;
+}
